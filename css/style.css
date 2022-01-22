@@ -1,0 +1,208 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+
+body {
+	padding: 30px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #000000;
+}
+
+.fullscreen {
+	display: flex;
+	height: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 0px 25px 10px #9f050a;
+	background: #1d1e20;
+}
+
+.personicon {
+	position: relative;
+	border-radius: 5px;
+	width: 40%;
+	height: 100%;
+	background: url("../img/xxx.jpg") center;
+	background-size: cover;
+}
+
+.social {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	bottom: 25px;
+	line-height: 30px;
+}
+
+.name {
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	margin: 15px;
+}
+
+.junior {
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	color: #f19b1d;
+	margin-bottom: 20px;
+}
+
+.link {
+	font-size: 20px;
+	color: #ffffff;
+	margin: 0 12px;
+}
+
+.link:hover {
+	color: #ef433f;
+}
+
+.aboutme {
+	position: relative;
+	border-left: 1px solid #9f050a;
+	width: 60%;
+	height: 100%;
+	padding: 30px;
+}
+
+.aboutme h2 {
+	font-size: 35px;
+	margin-bottom: 15px;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.yearscityself {
+	font-size: 15px;
+}
+
+.yearscity {
+	color: #f19b1d;
+	font-size: 16px;
+	word-spacing: 20px;
+	margin: 0px 0px 15px 0px;
+}
+
+.slash {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.self {
+	color: rgba(255, 255, 255, 0.7);
+	line-height: 17px;
+	margin: 0px 0px 15px 0px;
+}
+
+.skills {
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+	margin-bottom: 20px;
+}
+
+.skills h2 {
+	font-size: 27px;
+}
+
+.list {
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+.list li {
+	color: rgba(255, 255, 255, 0.7);
+	list-style: disc;
+	line-height: 25px;
+}
+
+.list li:hover {
+	color: #ef433f;
+}
+.symbol {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 250px;
+}
+
+.symbolimg {
+	font-size: 150px;
+	color: rgba(255, 255, 255, 0.2);
+}
+
+.symbolimg:hover {
+	color: #ef433f;
+}
